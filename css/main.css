@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+
+header {
+    display: flex;
+    color: #FEC1CB;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #FEC1CB;
+}
+
+
+/* a tags are "inline" meaning, they take up the space of the content. Padding and margin work differently with inline elements. they only apply - padding and margin to the right and left- */
+.yellow-div {
+    
+    background-image: url(/imgs/pexels-sky-img.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    color: black;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.yellow-btns-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.link-btn{
+    text-decoration: none;
+    color: black;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #FED32F;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+
+
+}
+
+.link-btn:hover {
+    color: blue;
+    background-color: aliceblue;
+}
+
+
+button {
+
+    text-decoration: none;
+    color: black;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #FED32F;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+button:hover {
+    color: blue;
+    background-color: aliceblue;
+}
+@media (min-width: 300px){
+    .yellow-div{
+        /* max-width: 100%; */
+    }
+}
